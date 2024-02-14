@@ -1,5 +1,5 @@
 // jsonwebtoken
-const jwt = require('jsonwebtoken')
+/* const jwt = require('jsonwebtoken')
 
 // to generate login token
 const createAccessToken = (userid) => {
@@ -7,4 +7,4 @@ const createAccessToken = (userid) => {
     return jwt.sign(userid,process.env.ACCESS_SECRET,{ expiresIn: '1d' })
 }
 
-module.exports = createAccessToken 
+module.exports = createAccessToken  */

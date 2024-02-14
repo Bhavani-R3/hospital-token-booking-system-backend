@@ -17,7 +17,7 @@ app.use(cors()) // cross origin resource sharing
 app.use(cookieParser(process.env.ACCESS_SECRET))
 
 // api route
-app.use(`/api/patient`, require('./route/userRoute'))
+app.use(`/api/patient`, require('./route/patientRoute'))
 
 app.use(`**`, (req,res) => {
     res.status(StatusCodes.SERVICE_UNAVAILABLE).json({ msg: `Requested service path not available`, success: false })

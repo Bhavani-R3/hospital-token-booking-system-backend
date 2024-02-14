@@ -1,6 +1,6 @@
 // decrypt the user id from auth token received by headers authorization
 
-const { StatusCodes } = require("http-status-codes")
+/* const { StatusCodes } = require("http-status-codes")
 const jwt = require('jsonwebtoken')
 
 const auth = async (req,res,next) => {
@@ -26,4 +26,4 @@ const auth = async (req,res,next) => {
     }
 }
 
-module.exports = auth
+module.exports = auth */

@@ -1,4 +1,4 @@
-const { StatusCodes } = require("http-status-codes")
+/* const { StatusCodes } = require("http-status-codes")
 const User = require('../model/userModel')
 
 const doctorAuth = async (req,res,next) => {
@@ -20,4 +20,4 @@ const doctorAuth = async (req,res,next) => {
     }
 }
 
-module.exports = doctorAuth
+module.exports = doctorAuth */

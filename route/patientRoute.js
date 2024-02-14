@@ -1,7 +1,7 @@
 const { create, readAll, readSingle } = require('../controller/patientController')
 
 const route = require('express').Router()
-const auth = require('../middleware/auth')
+// const auth = require('../middleware/auth')
 
 // user register
 route.post(`/create`, create)
